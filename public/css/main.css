@@ -28,3 +28,44 @@ img.home {
     border-radius: 5%;
     height: 300px;
 }
+p {
+    margin: 0 20%;
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+h1 {
+    font-size: 3.2rem;
+}
+
+.gallery {
+
+    display: flex;
+    
+    justify-content: space-between; 
+    align-items: flex-start; 
+    /* flex-flow: row wrap; */ 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-content: flex-start;
+
+    background-color: #bbdefb;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+    margin: 0 20%;
+
+  }
+
+  .gallery > div{
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+  #photo {
+    align-self: auto;
+    height: 200px;
+ 
+
+  }
